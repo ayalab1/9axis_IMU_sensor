@@ -1,3 +1,15 @@
+/* Code to read data from the MPU9250 using an Arduino Mega
+ * Hardware setup:
+ * sensor -> arduino pin
+ * SCL    -> 21
+ * SDA    -> 20
+ * VCC    -> 3.3V
+ * GND    -> GND
+ * Based on hideakitai's MPU9250 code and arnefmeyer's IMUReaderPlugin:
+ * https://github.com/hideakitai/MPU9250.git
+ * https://github.com/arnefmeyer/IMUReaderPlugin.git
+ */
+
 #include <Wire.h>
 #include <MPU9250.h>
 

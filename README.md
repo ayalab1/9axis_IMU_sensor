@@ -20,7 +20,7 @@ Legacy experiments that are not part of the supported workflow are kept under `a
 - `3D_printing_parts/`
   3D design files for mounting the IMU as part of an electrophysiology headstage assembly.
 - `archive/`
-  Older notebook and unrelated servo test material.
+  Older notebook, legacy Arduino sketches, legacy Python logger, and unrelated servo test material.
 
 ## Hardware
 
@@ -44,6 +44,13 @@ Important:
 - Verify your Intan digital input voltage compatibility before directly wiring the Arduino sync pin.
 - Use a level shifter if your recording setup requires it.
 - A shared ground between Arduino and Intan is required for reliable TTL synchronization.
+
+Reference for the Arduino-side IMU implementation:
+
+- based on `hideakitai/MPU9250`
+- based on `arnefmeyer/IMUReaderPlugin`
+- https://github.com/hideakitai/MPU9250.git
+- https://github.com/arnefmeyer/IMUReaderPlugin.git
 
 ## 3D Printing Parts
 
